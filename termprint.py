@@ -6,7 +6,7 @@ keys = {
     "ERROR": "red"
 }
 
-def termprint(logtype, data):
+def termprint(logtype, data, return_text=True):
     """
     Print log output in pretty formats
     """
