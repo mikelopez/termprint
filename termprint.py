@@ -3,7 +3,10 @@ from termcolor import *
 keys = {
     "INFO": "green", 
     "WARNING": "yellow", 
-    "ERROR": "red"
+    "ERROR": "red",
+    "BLUE": "blue",
+    "CYAN": "cyan",
+    "MAGENTA": "magenta"
 }
 
 def termprint(logtype, data, return_text=False):
